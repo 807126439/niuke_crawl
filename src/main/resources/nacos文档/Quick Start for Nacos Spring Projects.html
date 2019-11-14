@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://nacos.io/en-us/docs/quick-start-spring.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="Nacos,Spring,quick start">
+	<meta name="description" content="This quick start introduces how to enable Nacos configuration management and service discovery features for your Spring project.">
+	<!-- 网页标签标题 -->
+	<title>Quick Start for Nacos Spring Projects</title>
+	<link rel="shortcut icon" href="https://img.alicdn.com/tfs/TB1hgJpHAPoK1RjSZKbXXX1IXXa-64-64.png">
+	<link rel="stylesheet" href="./Quick Start for Nacos Spring Projects_files/documentation.css">
+</head>
+<body>
+	<div id="root"><div data-reactroot="" class="documentation-page"><header class="header-container header-container-normal"><div class="header-body"><a href="https://nacos.io/en-us/index.html"><img class="logo" src="./Quick Start for Nacos Spring Projects_files/nacos_colorful.png"></a><div class="search search-normal"><span class="icon-search"></span></div><span class="language-switch language-switch-normal">中</span><div class="header-menu"><img class="header-menu-toggle" src="./Quick Start for Nacos Spring Projects_files/menu_gray.png"><ul><li class="menu-item menu-item-normal"><a href="https://nacos.io/en-us/index.html">HOME</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="https://nacos.io/en-us/docs/quick-start.html">DOCS</a></li><li class="menu-item menu-item-normal"><a href="https://nacos.io/en-us/docs/nacos-dev.html">TEAM</a></li><li class="menu-item menu-item-normal"><a href="https://nacos.io/en-us/blog">BLOG</a></li><li class="menu-item menu-item-normal"><a href="https://nacos.io/en-us/community">COMMUNITY</a></li><li class="menu-item menu-item-normal"><a href="https://mp.weixin.qq.com/s/KH0dEC6cNckoq1M-siiCmg">CAMPUS</a></li><li class="menu-item menu-item-normal"><a href="http://console.nacos.io/nacos/index.html">DEMO-CONSOLE</a></li></ul></div></div></header><div class="bar"><div class="bar-body"><img src="./Quick Start for Nacos Spring Projects_files/docs.png" class="front-img"><div class="bar-title"><span>Documentation</span><div class="bone bone-light"></div></div><img src="./Quick Start for Nacos Spring Projects_files/docs.png" class="back-img"></div></div><section class="content-section"><div class="content-body"><div class="sidemenu"><div class="sidemenu-toggle"><img src="./Quick Start for Nacos Spring Projects_files/TB1E6apXHGYBuNjy0FoXXciBFXa-200-200.png"></div><ul><li class="menu-item menu-item-level-1"><span>Nacos </span><ul><li class="menu-item menu-item-level-2" style="height: 180px; overflow: hidden;"><span><!-- react-text: 44 -->What is Nacos<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(0deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/what-is-nacos.html" target="_self">What is Nacos</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/concepts.html" target="_self">Concepts</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/architecture.html" target="_self">Architecure</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/faq.html" target="_self">FAQ</a></li></ul></li><li class="menu-item menu-item-level-2" style="height: 324px; overflow: hidden;"><span><!-- react-text: 57 -->Quick Start<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(0deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/quick-start.html" target="_self">Nacos</a></li><li class="menu-item menu-item-level-3 menu-item-selected"><a href="https://nacos.io/en-us/docs/quick-start-spring.html" target="_self">Nacos Spring</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/quick-start-spring-boot.html" target="_self">Nacos Spring Boot</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/quick-start-spring-cloud.html" target="_self">Nacos Spring Cloud</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/quick-start-docker.html" target="_self">Nacos Docker</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/use-nacos-with-dubbo.html" target="_self">Nacos with Dubbo</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/use-nacos-with-kubernetes.html" target="_self">Nacos with K8s</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/nacos-sync.html" target="_self">Nacos Sync</a></li></ul></li><li class="menu-item menu-item-level-2" style="height: 252px; overflow: hidden;"><span><!-- react-text: 78 -->User Guide<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(0deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/sdk.html" target="_self">Java SDK</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/other-language.html" target="_self">Other Language</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/open-api.html" target="_self">Open-API</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/nacos-spring.html" target="_self">Nacos Spring</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/namespace-endpoint-best-practices.html" target="_self">Namespace, endpoint best practices</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/system-configurations.html" target="_self">Nacos System Configurations</a></li></ul></li><li class="menu-item menu-item-level-2" style="height: 36px; overflow: hidden;"><span><!-- react-text: 95 -->Admin Guide<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(-90deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/deployment.html" target="_self">Deployment Guide</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/cluster-mode-quick-start.html" target="_self">Cluster Mode Deployment</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/management-api.html" target="_self">Management OpenAPI</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/console-guide.html" target="_self">Admin Console Guide</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/monitor-guide.html" target="_self">Nacos Monitor Guide</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/nacos-config-benchmark.html" target="_self">Nacos Config Benchmark</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/nacos-naming-benchmark.html" target="_self">Nacos Naming Benchmark</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/nacos-sync-use.html" target="_self">Data Migration to Nacos</a></li></ul></li><li class="menu-item menu-item-level-2" style="height: 36px; overflow: hidden;"><span><!-- react-text: 116 -->Contributor Guide<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(-90deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/contributing.html" target="_self">Contribute to Nacos</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/activity.html" target="_self">Nacos Activity</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/pull-request.html" target="_self">Pull Request Template</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/how-to-reporting-bugs.html" target="_self">How to reporting bugs</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/roadmap.html" target="_self">Nacos RoadMap</a></li><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/use-nacos-with-istio.html" target="_self">Nacos with Istio</a></li></ul></li><li class="menu-item menu-item-level-2" style="height: 36px; overflow: hidden;"><span><!-- react-text: 133 -->Community<!-- /react-text --><img class="menu-toggle" src="./Quick Start for Nacos Spring Projects_files/arrow_down.png" style="transform: rotate(-90deg);"></span><ul><li class="menu-item menu-item-level-3"><a href="https://nacos.io/en-us/docs/community.html" target="_self">Community</a></li></ul></li></ul></li></ul></div><div class="doc-content markdown-body"><h1>Quick Start for Nacos Spring Projects</h1>
+<p>This quick start introduces how to enable Nacos configuration management and service discovery features for your Spring project.</p>
+<p>For more details about Nacos Spring Boot: <a href="https://github.com/nacos-group/nacos-spring-project/wiki/Nacos-Spring-Project-0.3.1-%E6%96%B0%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C">nacos-spring-project</a>.</p>
+<p>The quick start includes two samples:</p>
+<ul>
+<li>How to enable Nacos server and Nacos Spring configuration modules to implement dynamic configuration management;</li>
+<li>How to enable Nacos server and Nacos Spring service discovery modules to implement service registration and discovery.</li>
+</ul>
+<h2>Prerequisite</h2>
+<p>Follow instructions in <a href="https://nacos.io/zh-cn/docs/quick-start.html">Nacos Quick Start</a> to download Nacos and start the Nacos server.</p>
+<h2>Enable Configuration Service</h2>
+<p>Once you start the Nacos server, you can follow the steps below to enable the Nacos configuration management service for your Spring project.</p>
+<p>Sample project: <a href="https://github.com/nacos-group/nacos-examples/tree/master/nacos-spring-example/nacos-spring-config-example">nacos-spring-config-example</a></p>
+<ol>
+<li>Add the Nacos Spring dependency.</li>
+</ol>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;com.alibaba.nacos&lt;/groupId&gt;
+    &lt;artifactId&gt;nacos-spring-context&lt;/artifactId&gt;
+    &lt;version&gt;${latest.version}&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<p>The the latest version can be available in maven repositories such as "<a href="https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-spring-context">mvnrepository.com</a>".</p>
+<ol start="2">
+<li>Add the <code>@EnableNacosConfig</code> annotation to enable the configuration service. In the code below, <code>@NacosPropertySource</code> is used to load the configuration source whose  <code>dataId</code> is <code>example</code> , and autorefresh is also enabled:</li>
+</ol>
+<pre><code>@Configuration
+@EnableNacosConfig(globalProperties = @NacosProperties(serverAddr = "127.0.0.1:8848"))
+@NacosPropertySource(dataId = "example", autoRefreshed = true)
+public class NacosConfiguration {
+
+}
+</code></pre>
+<ol start="3">
+<li>Specify the property value for the <code>@NacosValue</code> annotation of Nacos.</li>
+</ol>
+<pre><code>@Controller
+@RequestMapping("config")
+public class ConfigController {
+
+    @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
+    private boolean useLocalCache;
+
+    @RequestMapping(value = "/get", method = GET)
+    @ResponseBody
+    public boolean get() {
+        return useLocalCache;
+    }
+}
+</code></pre>
+<ol start="4">
+<li>
+<p>Start Tomcat and call  <code>curl http://localhost:8080/config/get</code> to get configuration information. Because no configuration has been published, a <code>false</code>message is returned.</p>
+</li>
+<li>
+<p>Now you can call <a href="https://nacos.io/zh-cn/docs/open-API.html">Nacos Open API</a> to publish a configruation to the Nacos server. Assume the dataId is <code>example</code>, and content is <code>useLocalCache=true</code>.</p>
+</li>
+</ol>
+<pre><code>curl -X POST "http://127.0.0.1:8848/nacos/v1/cs/configs?dataId=example&amp;group=DEFAULT_GROUP&amp;content=useLocalCache=true"
+</code></pre>
+<ol start="6">
+<li>Access <code>http://localhost:8080/config/get</code>again, and you get a return message of <code>true</code>, indicating that the value of <code>useLocalCache</code>in your application has been updated.</li>
+</ol>
+<h2>Enable Service Discovery</h2>
+<p>Now you would like to enable the service discovery function of Nacos in your Spring project.</p>
+<p>Sampe project: <a href="https://github.com/nacos-group/nacos-examples/tree/master/nacos-spring-example/nacos-spring-discovery-example">nacos-spring-discovery-example</a></p>
+<ol>
+<li>Add the Nacos Spring dependency.</li>
+</ol>
+<pre><code>&lt;dependency&gt;
+    &lt;groupId&gt;com.alibaba.nacos&lt;/groupId&gt;
+    &lt;artifactId&gt;nacos-spring-context&lt;/artifactId&gt;
+    &lt;version&gt;${latest.version}&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<p>The the latest version can be available in maven repositories such as "<a href="https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-spring-context">mvnrepository.com</a>".</p>
+<ol start="2">
+<li>Add the <code>@EnableNacosDiscovery</code> annotation to enable the service discovery function of Nacos:</li>
+</ol>
+<pre><code>@Configuration
+@EnableNacosDiscovery(globalProperties = @NacosProperties(serverAddr = "127.0.0.1:8848"))
+public class NacosConfiguration {
+
+}
+</code></pre>
+<ol start="3">
+<li>Use <code>@NacosInjected</code> to inject a Nacos <code>NamingService</code> instance:</li>
+</ol>
+<pre><code>@Controller
+@RequestMapping("discovery")
+public class DiscoveryController {
+
+    @NacosInjected
+    private NamingService namingService;
+
+    @RequestMapping(value = "/get", method = GET)
+    @ResponseBody
+    public List&lt;Instance&gt; get(@RequestParam String serviceName) throws NacosException {
+        return namingService.getAllInstances(serviceName);
+    }
+}
+</code></pre>
+<ol start="4">
+<li>
+<p>Start Tomcat and call <code>curl http://localhost:8080/discovery/get?serviceName=example</code>, and the return value is an empty JSON array <code>[]</code>.</p>
+</li>
+<li>
+<p>Call <a href="https://nacos.io/zh-cn/docs/open-API.html">Nacos Open API</a> to register a service called <code>example</code>to the Nacos Server.</p>
+</li>
+</ol>
+<pre><code>curl -X PUT 'http://127.0.0.1:8848/nacos/v1/ns/instance?serviceName=example&amp;ip=127.0.0.1&amp;port=8080'
+</code></pre>
+<ol start="6">
+<li>Access <code>curl http://localhost:8080/discovery/get?serviceName=example</code>again, and you will get the following return:</li>
+</ol>
+<pre><code>[
+  {
+    "instanceId": "127.0.0.1#8080#DEFAULT#example",
+    "ip": "127.0.0.1",
+    "port": 8080,
+    "weight": 1.0,
+    "healthy": true,
+    "cluster": {
+      "serviceName": null,
+      "name": "",
+      "healthChecker": {
+        "type": "TCP"
+      },
+      "defaultPort": 80,
+      "defaultCheckPort": 80,
+      "useIPPort4Check": true,
+      "metadata": {}
+    },
+    "service": null,
+    "metadata": {}
+  }
+]
+</code></pre>
+<h2>Related Projects</h2>
+<ul>
+<li><a href="https://github.com/alibaba/nacos">Nacos</a></li>
+<li><a href="https://github.com/nacos-group/nacos-spring-project">Nacos Spring</a></li>
+<li><a href="https://github.com/nacos-group/nacos-spring-boot-project">Nacos Spring Boot</a></li>
+<li><a href="https://github.com/alibaba/spring-cloud-alibaba">Spring Cloud Alibaba</a></li>
+</ul>
+</div></div></section><footer class="footer-container"><div class="footer-body"><img src="./Quick Start for Nacos Spring Projects_files/nacos_gray.png"><div class="cols-container"><div class="col col-12"><h3>Vision</h3><p>By providing an easy-to-use service infrastructure such as dynamic service discovery, service configuration, service sharing and management and etc., Nacos help users better construct, deliver and manage their own service platform, reuse and composite business service faster and deliver value of business innovation more quickly so as to win market for users in the era of cloud native and in all cloud environments, such as private, mixed, or public clouds.</p></div><div class="col col-6"><dl><dt>Documentation</dt><dd><a href="https://nacos.io/en-us/docs/what-is-nacos.html" target="_self">Overview</a></dd><dd><a href="https://nacos.io/en-us/docs/quick-start.html" target="_self">Quick start</a></dd><dd><a href="https://nacos.io/en-us/docs/contributing.html" target="_self">Developer guide</a></dd></dl></div><div class="col col-6"><dl><dt>Resources</dt><dd><a href="https://nacos.io/en-us/community/index.html" target="_self">Community</a></dd><dd><a href="https://www.aliyun.com/product/acm?source_type=nacos_pc_20181219" target="_self">Cloud Service ACM</a></dd><dd><a href="https://www.aliyun.com/product/edas?source_type=nacos_pc_20181219" target="_self">Cloud Service EDAS</a></dd><dd><a href="https://www.aliyun.com/product/ahas?source_type=nacos_pc_20190225" target="_self">Cloud Service AHAS</a></dd></dl></div></div><div class="copyright"><span>@ 2018 The Nacos Authors | An Alibaba Middleware (Aliware) Project</span></div></div></footer></div></div>
+	<script async="" src="./Quick Start for Nacos Spring Projects_files/analytics.js.下载"></script><script src="./Quick Start for Nacos Spring Projects_files/react-with-addons.min.js.下载"></script>
+	<script src="./Quick Start for Nacos Spring Projects_files/react-dom.min.js.下载"></script>
+	<script>
+		window.rootPath = '';
+  </script>
+	<script src="./Quick Start for Nacos Spring Projects_files/documentation.js.下载"></script>
+
+</body></html>
